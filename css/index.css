@@ -1,0 +1,253 @@
+.main{
+
+    width: 980px;
+    height: 455px ;
+    margin-left: 220px;
+    
+    
+    margin-top: 10px;
+
+
+}
+
+.main .focus{
+
+
+    float: left;
+
+   
+}
+.main .newsFlash{
+    float: right;
+    width: 250px;
+    height: 100%;
+}
+
+.newsFlash .news{
+
+    width: 100%;
+    height: 165px;
+   
+    border: 1px solid #e4e4e4;
+}
+
+
+
+
+.newsFlash .bargin{
+
+    margin-top: 6px;
+}
+
+.newsFlash .news-hd{
+
+
+    height: 33px;
+    line-height: 33px;
+    padding: 0 15px;
+    border-bottom: 1px dotted #e8e8e7;
+    font-size: 14px;
+
+
+}
+
+.newsFlash .news-hd h5{
+    
+    float: left;
+}
+
+.newsFlash .news-hd .more{
+    float: right;
+}
+.newsFlash .news-hd .more::after{
+    content: '\e920';
+    font-family: 'icomoon' ;
+   
+}
+
+.news-bd{
+
+    padding: 5px 15px 0;
+    
+
+}
+
+.news-bd li{
+
+
+    height: 24px;
+    line-height: 24px;
+
+    white-space: nowrap;
+    
+    overflow: hidden;
+    
+    text-overflow: ellipsis;
+}
+
+
+.newsFlash .lifeService{
+
+    width: 100%;
+    height: 209px;
+
+    /* background-color: aqua; */
+
+    border: 1px solid #e4e4e4;
+    border-top: 0 ;
+    border-bottom: 0;
+
+
+}
+
+.lifeService li{
+    float: left;
+    
+    width: 62px;
+    height: 70px;
+    border-bottom: 1px solid #e4e4e4  ;
+    border-right: 1px solid #e4e4e4 ;
+    text-align: center;
+
+}
+
+.lifeService li i{
+  display: block;
+  width: 24px;
+  height: 28px;
+  background: url(../images/icons.png) no-repeat -19px -15px ;
+  margin: 10px auto 5px;
+
+}
+
+
+.lifeService li:nth-child(4n){
+    border-right: 0 ;
+}
+
+.recom{
+
+      height: 163px;
+      margin-top: 10px;
+      background-color: #ebebeb;
+
+}
+
+
+.recom .recom-hd{
+    float: left;
+    width: 205px;
+    height:163px;
+    background: #5c5251 url(../images/recom.png) no-repeat center center;
+  
+}
+
+.recom .recom-bd{
+
+    float: left;
+    
+}
+
+.recom .recom-bd ul li {
+    position: relative;
+
+    float: left;
+    /* border-left: 1px solid #dddddd; */
+}
+.recom .recom-bd ul li img{
+    float: left;
+}
+
+ .recom .recom-bd ul li:nth-child(-n+3)::after{
+    float: left;
+    content: '';
+    width: 1px;
+    background-color:#dddddd ;
+    height: 143px ;
+    margin: 10px auto;
+
+
+
+} 
+
+.floor .w{
+
+    margin-top: 30px;
+}
+
+.floor  .box_hd{
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.floor .box_hd  h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+.floor .box_hd .tab_list{
+
+   float: right;
+   line-height: 30px;
+
+}
+.box_hd .tab_list li {
+
+    float: left;
+}
+
+.tab_list ul li a {
+    margin: 0 15px;
+}
+
+.box_bd {
+    height: 361px;
+
+  
+}
+
+.tab_list_item>div{
+
+    float: left;
+    height: 361px;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.col_210 ul{
+    padding-left: 12px;
+}
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    line-height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    margin-right: 10px;
+
+}
+
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+
+.col_219 {
+    width: 219px;
+}
+.bb {
+    /* 一般情况下，a如果包含有宽度的盒子，a需要转为块级元素 */
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
